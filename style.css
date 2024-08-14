@@ -8,7 +8,7 @@ body{
                     height: 715px;
                     margin: 0 auto;
                     background: linear-gradient(180deg, #6e6b6b 0%, rgba(119, 119, 119, 0) 100%);
-                    border: 2px solid red;
+                   
                     
 }
 .set{
@@ -129,12 +129,14 @@ body{
                     
                   
  } 
- .text{
+ .img{
                     
                     margin-left: 65px;
-                    width: 520px;
-                    height: 500px;
-                    gap: 28px;
+                    width: 349px;
+                    height: 580px;
+                    top: 135px;
+                    left: 877px;
+                 
                                             
  }
  
@@ -145,13 +147,66 @@ body{
                     height: 580px;
                     top: 135px;
                     left: 877px;
+                    border: 2px solid red;
 
 
+ }
+
+ .bn1{
+        width: 206px;
+        height: 96px;
+        background-color:#303030;
+        border-radius: 12px;
+        margin-top: -180px;
+        margin-left: -50px;
+        position: absolute;
+        display: flex;
+        flex-direction:column;
+
+ }
+ .iu{
+        margin-left: 75px;
+ }
+ #iop{ width: 200px;
+        height: 24px;
+        top: 608px;
+        left: 839px;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #EFEDE8;
+       
+
+ }
+ .di{   
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top:14%;
+        margin-left: 20px;
+        background-color: #E6533c;
+        position: absolute;
+
+ }
+ .bn2{
+        width: 193px;
+        height: 98px;
+        margin-top:-460px;
+        margin-left: 290px;
+        position: absolute;
+        background-color:#565555;
+        border-radius: 12px ;
+        
+
+ }
+ .res{
+        margin-left: 30px;
  }
  /*banner2 desing */
  
 .banner2{
-                 border: 2px solid red;
+                 
                  width:1044px ;
                  height:452px ;
                  top:815px;
@@ -194,7 +249,7 @@ body{
 
 /* banner 3 desing */
 .banner3{
-        border: 2px solid red;
+       
         width: 1060px;
         height: 371px;
         display: flex;
@@ -239,7 +294,7 @@ body{
 .banner4{
         width: 1060px;
         height: 581px;
-        border: 2px solid red;
+        
         margin: 0 auto;
         margin-top: 80px;
 }
@@ -308,7 +363,7 @@ body{
         height: 120px;
         margin: 0 auto;
         margin-top: 80px;
-        border: 2px solid red;
+       
 }
 #th5{  
         width:353px;
@@ -330,6 +385,139 @@ body{
        font-size: 14px;
        line-height: 24px;
      
+}
+/* banner 6 desing */
+.banner6{
+        width: 1440px;
+        height: 487px;
+        background-color: #222222;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+       
+}
+
+.h6{
+        width: 443px;
+        height: 34px;
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 33px;
+        margin-top: 80px;
+        margin-left: 150px;
+              
+}
+
+.tb,th, td{
+        border: 1px solid #6e6b6b;
+        border-collapse: collapse;
+}
+#th1{
+        color: #FFFFFF;
+}
+.tb{    
+        width: 310px;
+        height: 216px;
+        top: 138px;
+        left: 189px;
+        margin-top: 30px;
+        margin-left: 150px;
+}
+.frm{
+        width: 577px;
+        height: 386px;
+        margin-top: 80px;
+        margin-left: 120px;
+     
+}
+.fh{    
+        width: 443px;
+        height: 34px;
+        font-family: Inter;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 33px;
+
+}
+.fp{
+        width: 577px;
+        height: 48px;
+        font-family: Inter;
+        font-weight: 400px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #6e6b6b;
+}
+.ip{
+        display: flex;
+        flex-direction: row;
+}
+.tbl{
+        margin-top: 20px;
+}
+#d1{
+        width: 282px;
+        height: 48px;
+        background-color: #6e6b6b;
+        border-radius: 8px;
+        padding: 12px,40px,12px,20px;
+        gap: 10px;
+        
+}
+#d2{
+        width: 282px;
+        height: 48px;
+        background-color: #6e6b6b;
+        border-radius: 8px;
+        padding: 12px,40px,12px,20px;
+        gap: 10px;
+        margin-left: 8px;
+}
+#d3{
+        width: 282px;
+        height: 48px;
+        background-color: #6e6b6b;
+        border-radius: 8px;
+        padding: 12px,40px,12px,20px;
+        gap: 10px;
+        margin-top: 10px;
+}
+.roll{
+        display: flex;
+        flex-direction:row;
+}
+#d4{
+        width: 282px;
+        height: 48px;
+        background-color: #6e6b6b;
+        border-radius: 8px;
+        justify-content: space-between;
+        padding: 12px,40px,12px,20px;
+        gap: 10px;
+        margin-left: 8px;
+        margin-top: 13px;
+            
+}
+#d5{
+        width: 577px;
+        height: 48px;
+        background-color: #6e6b6b;
+        border-radius: 8px;
+        justify-content: space-between;
+        margin-top: 10px;
+}
+.btn2{
+        font-family: Inter;
+        font-size: 18px;
+        width: 224px;
+        height: 54px;
+        border-radius: 42px;
+        gap: 10px;
+        color: rgb(234, 234, 234);
+        background-color: #E6533c;
+        padding: 16px, 40px, 16px, 40px; 
+        margin-top: 10px;
 }
 
 /* banner 7 desing */
