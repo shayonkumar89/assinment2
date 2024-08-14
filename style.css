@@ -203,6 +203,26 @@ body{
  .res{
         margin-left: 30px;
  }
+
+ /* responsive part */
+@media  screen and (max-width:576px){
+       .banner{
+        width: 500px;
+        height: 335px;
+        top: 146px;
+        left: 20px;
+        gap: 71px;
+        flex-direction: column;
+       } 
+       .off{
+        width: 500px;
+        height: 588px;
+        top: 529px;
+        margin-left: 35px;
+       }       
+}
+
+
  /*banner2 desing */
  
 .banner2{
@@ -247,6 +267,35 @@ body{
         margin-top: 30px;
 }
 
+
+
+@media  screen and (max-width:576px){
+        .banner2{
+                width: 500px;
+                height: 1398px;
+                margin-top: 1024px;
+                margin-left: 28px;
+                gap: 58px;
+             
+        }
+
+        .bimgs{   
+         flex-direction: column;
+         align-items: center;
+        }
+        .img1{
+                width: 2331px;
+                height: 274px;
+                gap: 30px;
+                margin-top: 100px;
+        }
+        .banner2text{
+                width: 318px;
+                height: 124px;
+                gap: 14px;
+        }
+
+}
 /* banner 3 desing */
 .banner3{
        
@@ -290,6 +339,17 @@ body{
         font-size: 14px;
         line-height: 20px;
 }
+
+@media  screen and (max-width:576px){
+        .banner3{  
+          width: 500px;
+          height: 700px;
+          margin-left: 20px;
+          border-radius: 18px;       
+          flex-direction: column;
+          align-items: center;
+        }
+}
 /* banner 4 desing */
 .banner4{
         width: 1060px;
@@ -302,6 +362,7 @@ body{
         width: 675px;
         height: 120px;
 }
+
 #th4{   
         width: 573px;
         height: 50px;
@@ -320,6 +381,28 @@ body{
         font-size: 14px;
         line-height: 24px;
 }
+
+@media  screen and (max-width:576px){
+        .banner4head{  
+          width: 500px;
+          height: 180px;
+          margin-left: 20px;
+          gap: 14px;
+          border: 2px solid red;
+        }
+        #th4{
+                width: 331px;
+                height: 76px;
+                line-height: 40px;
+                font-size: 32px;
+                margin-top: 1px;  
+        }
+        #tp4{
+                width: 331px;
+                height: 72px;
+        }
+}
+
 .allimg{
         margin-top: 50px;
 }
@@ -357,6 +440,19 @@ body{
         width: 347px;
         height: 201px;
 }
+@media  screen and (max-width:576px){
+       .allimg{
+        width: 500px;
+        height: 253px;
+        margin-left: 20px;
+        border: 2px solid red;
+        
+       }
+      
+} 
+       
+
+
 /* header desing */
 .head4{ 
         width: 671px;
@@ -385,6 +481,29 @@ body{
        font-size: 14px;
        line-height: 24px;
      
+}
+@media  screen and (max-width:576px){
+        .head4{  
+          width: 353px;
+          height: 124px;
+          margin-left: 20px;
+          gap: 14px;
+        
+        }
+        #th5{
+          width: 236px;
+          height: 38px;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 38px; 
+        }
+        #tp5{
+          width: 353px;
+          height: 72px;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 24px; 
+        }
 }
 /* banner 6 desing */
 .banner6{
@@ -520,6 +639,48 @@ body{
         margin-top: 10px;
 }
 
+@media  screen and (max-width:576px){
+        .banner6{ 
+        width: 394px;
+        height: 790px;  
+         flex-direction: column;
+         
+        }
+        .h6{
+                width: 167px;
+                height: 19px;
+                font-weight: 900;
+                font-size: 16px;
+                margin-left: 20px;
+                line-height: 19px;
+                margin-top: 10px;
+        }
+        .tb{
+           width: 310px;
+           height: 316px;
+           margin-left: 20px;
+
+        }
+        .fp{    
+                width: 346px;
+                height: 72px;
+                font-weight: 400;
+                font-size: 14px;
+        }
+        #d5{
+                width: 353px;
+                height: 48px;
+
+        }
+        .frm{
+        width: 354px;
+        height: 395px;
+        margin-left: 20px; 
+        margin-top: 2px; 
+      
+        }
+}
+
 /* banner 7 desing */
 .banner7{
         width: 1060px;
@@ -569,6 +730,40 @@ body{
         margin-top: 20px;
      
 }
+
+@media  screen and (max-width:576px){
+        .head7{
+                width: 309px;
+                height: 124px;
+                margin-left: 42px;
+                gap: 14px;
+                border: 2px solid red;
+        }
+        .th7{
+        width: 243px;
+        height: 38px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 38px;
+        }
+        .tp7{
+        width: 309px;
+        height: 72px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;       
+        }
+        .img7{
+        width: 353px;
+        height: 1880px;
+        margin-left: 50px;
+        gap: 20px; 
+        display: flex;
+        flex-direction: column;    
+        }
+}
+
+/* footer desing */
 
 .foot{ 
       width: 1440px;
@@ -682,3 +877,39 @@ body{
         color: #6e6b6b;
         margin-top: 30px;
 }
+
+@media  screen and (max-width:576px){
+        .foot{
+                width: 393px;
+                height: 986px;
+                margin-top: 1300px;
+        }
+        .textf{   
+         flex-direction: column;
+        }
+        .textf2{
+                margin-top: 100px;
+        }
+        .hori{
+                width: 354px;
+                margin-top: 650px;
+                margin-left: 19px;
+
+        }
+        .hf{
+                width: 256px;
+                height: 50px;
+                font-weight: 800;
+                font-size: 70px;
+                margin-bottom: 1px;
+        }
+        .pf{
+              width: 317px;
+              height: 96px;
+              font-weight:400;
+              font-size: 20px;
+                
+           
+        }
+}
+
