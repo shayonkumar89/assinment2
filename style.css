@@ -147,7 +147,7 @@ body{
                     height: 580px;
                     top: 135px;
                     left: 877px;
-                    border: 2px solid red;
+                
 
 
  }
@@ -388,7 +388,7 @@ body{
           height: 180px;
           margin-left: 20px;
           gap: 14px;
-          border: 2px solid red;
+        
         }
         #th4{
                 width: 331px;
@@ -445,7 +445,7 @@ body{
         width: 500px;
         height: 253px;
         margin-left: 20px;
-        border: 2px solid red;
+        
         
        }
       
@@ -737,7 +737,7 @@ body{
                 height: 124px;
                 margin-left: 42px;
                 gap: 14px;
-                border: 2px solid red;
+                
         }
         .th7{
         width: 243px;
@@ -907,8 +907,7 @@ body{
               width: 317px;
               height: 96px;
               font-weight:400;
-              font-size: 20px;
-                
+              font-size: 20px;  
            
         }
 }
